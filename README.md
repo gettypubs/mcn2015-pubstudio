@@ -1,8 +1,16 @@
 # MCN Digital Publishing Studio
 
-[http://sched.co/3tVR](http://sched.co/3tVR)
-Greg Albers, *Digital Publications Manager, J. Paul Getty Trust*
+[http://sched.co/3tVR](http://sched.co/3tVR)<br />
+Greg Albers<br />
+*Digital Publications Manager, J. Paul Getty Trust*<br />
 [@geealbers](https://twitter.com/geealbers)
+
+### Resources and Articles
+
+See the PDFs in the `resources` folder here, as well as:
+
+- [Digital Publishing Essentials](https://github.com/gettypubs/digpublishing-essentials): Potential digital publishing tools, interesting projects and like-minded organizations here on GitHub and elsewhere.
+- ["Why Static Website Generators Are The Next Big Thing"](http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/), Mathias Biilmann Christensen in *Smashing Magazine*, Nov 2, 2015.
 
 ### Workshop Description
 
