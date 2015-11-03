@@ -10,7 +10,8 @@ Greg Albers<br />
 See the PDFs in the `resources` folder here, as well as:
 
 - [Digital Publishing Essentials](https://github.com/gettypubs/digpublishing-essentials): Potential digital publishing tools, interesting projects and like-minded organizations here on GitHub and elsewhere.
-- ["Why Static Website Generators Are The Next Big Thing"](http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/), Mathias Biilmann Christensen in *Smashing Magazine*, Nov 2, 2015.
+- ["The Future of Digital Publishing is GitHub"](http://geealbers.github.io/future-of-digpublishing-is-github/), Greg Albers, slides from talk given at MCN 2014.
+- ["Why Static Website Generators Are The Next Big Thing"](http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/), Mathias Biilmann Christensen, *Smashing Magazine*, Nov 2, 2015.
 
 ### Workshop Description
 
