@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'Libre_Caslon_Text';
+  src: 	url('../fonts/LibreCaslonText-Regular.eot');
+  src:	url('../fonts/LibreCaslonText-Regular.ttf') format('truetype'),
+  		  url('../fonts/LibreCaslonText-Regular.woff') format('woff'),
+        url('../fonts/LibreCaslonText-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:  'Libre_Caslon_Text_Italic';
+  src: 	url('../fonts/LibreCaslonText-Italic.eot');
+  src:	url('../fonts/LibreCaslonText-Italic.ttf') format('truetype'),
+  		  url('../fonts/LibreCaslonText-Italic.woff') format('woff'),
+        url('../fonts/LibreCaslonText-Italic.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, figure {
+  margin: 0;
+  padding: 0; }
+body {
+	font-family: Libre_Caslon_Text, serif;
+	font-size: 20px;
+	line-height: 1.8em;
+	color: #282828;
+}
+em {
+	font-family: Libre_Caslon_Text_Italic, serif;
+	font-style: normal;
+}
+a, a:visited {
+	color: #0188ca;
+	text-decoration: none;
+}
+a:hover {
+	color: #005B89;
+	background-color: #e5e5e5;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-family: Libre_Caslon_Text, serif;
+	line-height: 1.25em;
+}
+
+h2 {
+  font-family: Libre_Caslon_Text_Italic;
+	font-size: 3em;
+	color: #0188ca;
+	line-height: 1.35em;
+}
+
+h3 {
+  font-family: CooperHewitt_Light, Helvetica, Arial, sans-serif;
+	font-size: 2.3em;
+	margin: 1em 0 .5em;
+	line-height: 1.55em;
+}
+
+h4 {
+	font-family: CooperHewitt_Medium, Helvetica, Arial, sans-serif;
+	margin: 1em 0;
+	text-transform: uppercase;
+}
+
+.cover {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../images/cover.jpg');
+	background-position: 0% 70%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 120px 50px 0px 200px;
+	/*text-shadow: 2px 2px 4px #282828;*/
+}
+
+.cover h2 {
+   color: #282828;
+}
+.cover h1 {
+  max-width: 800px;
+  color: #fff;
+}
+.cover .logo {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	height: 40px;
+	width: 40px;
+}
+
+#next {
+  	position: fixed;
+  	bottom: 200px;
+  	left: 0;
+    padding-left: 20px;
+  }
+#prev {
+	position: fixed;
+	bottom: 200px;
+	right: 0;
+  padding-right: 20px;
+  height: 100px;
+}
+
+
+.footnotes {
+  font-family: CooperHewitt_Book, Helvetica, Arial, sans-serif;
+	font-size: .8em;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+  margin-top: 60px;
+}
+.footnotes em {
+	font-family: CooperHewitt_BookItalic, Helvetica, Arial, sans-serif;
+}
+.footnotes ol {
+  padding: 1em;
+}
+.footnotes ol li {
+  margin-bottom: .75em;
+}
+
+
+.toc {
+	font-family: CooperHewitt_Book, Helvetica, Arial, sans-serif;
+	font-size: .8em;
+  letter-spacing: 1px;
+  color: #0188ca;
+	position: fixed;
+	top: 120px;
+  left: 90px;
+	width: 300px;
+	padding-left: 0;
+	list-style: none;
+}
+
+.toc em {
+	font-family: CooperHewitt_BookItalic, Helvetica, Arial, sans-serif;
+}
+
+.toc ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.toc ul li {
+  line-height: 1.6em;
+  margin-bottom: .5em;
+}
+
+.toc .author {
+  text-transform: none;
+}
+
+article {
+	width: 100%;
+	margin: 0;
+  padding: 0;
+}
+
+article p, article header, article .footnotes, article h3 {
+  width: 50%;
+  max-width: 720px;
+  min-width: 440px;
+	margin-left: 440px;
+}
+
+article .footnotes p {
+  margin-left: 0px;
+}
+
+article header {
+  margin-top: 120px;
+  margin-bottom: 3em;
+}
+
+article p {
+  text-indent: 2em;
+}
+
+article p:first-of-type {
+	text-indent: 0;
+}
+
+article sup {
+  margin-left: 1px;
+  line-height: 0;
+}
+
+blockquote {
+	margin: 1em 2em;
+	font-style: italic;
+}
+
+blockquote cite {
+	font-size: .7em;
+}
+
+blockquote p em {
+  font-family: Libre_Caslon_Text;
+	font-style: normal;
+}
+
+blockquote + p {
+  text-indent: 0;
+}
+
+article img {
+	width: 400px;
+	float: right;
+	margin: 1em 0 0 20px;
+	max-width: 100%;
+}
+
+p img, figcaption {
+	width: 400px;
+	float: right;
+	margin: 1em 0px 1em 20px;
+	max-width: 100%;
+	font-size: .85em;
+	font-family: CooperHewitt_Semibold, Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+	text-indent: 0;
+}
+
+figcaption em {
+	font-family: CooperHewitt_SemiboldItalic, Helvetica, Arial, sans-serif;
+}
+
+figcaption strong {
+	font-family: CooperHewitt_Heavy, Helvetica, Arial, sans-serif;
+}

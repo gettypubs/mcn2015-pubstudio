@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<nav>{% if page.previous %}
+<h2 id="next"><a href="{{ site.baseurl }}{{page.previous.url}}"><i class="fa fa-chevron-left"></i></a></h2>{% else %}
+<h2 id="next"><a href="{{ site.baseurl }}/index.html"><i class="fa fa-chevron-left"></i></a></h2>
+{% endif %}
+{% if page.next %}
+<h2 id="prev"><a href="{{ site.baseurl }}{{page.next.url}}"><i class="fa fa-chevron-right"></i></a></h2>
+{% endif %}</nav>
+
+<article>
+
+	{{ content }}
+
+</article>
+
+{% include toc.html %}

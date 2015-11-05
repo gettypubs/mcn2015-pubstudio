@@ -1,0 +1,12 @@
+# Site settings
+title: The Digital Stories of MCN
+subtitle:
+author:
+description: "A book about MCN, published at MCN 2015, by MCN Digital Studio Workshop participants"
+permalink: none # this removes the required date (YYYY-MM-DD) from the post URLs
+
+baseurl: "/mcn2015-pubstudio" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
